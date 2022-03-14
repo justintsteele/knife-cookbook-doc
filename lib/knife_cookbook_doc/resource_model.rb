@@ -107,6 +107,9 @@ module KnifeCookbookDoc
       resource_data = resource_data.gsub(/^ *\# ?\<\> (.*?)$/) do
         "desc #{$1.inspect}\n"
       end
+      resource_data = resource_data.gsub(/^action_class do\n(.*?)\nend/m) do
+        ''
+      end
 
       resource_class.class_eval(resource_data, filename, 1)
 

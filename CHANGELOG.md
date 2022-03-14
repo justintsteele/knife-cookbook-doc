@@ -1,5 +1,9 @@
 # Unreleased
 
+# v 0.31.1 (March 14 2022)
+
+* Remove `action_class` from data sent to `resource_class.class_eval`.  Submitted by Justin Steele.
+
 # v0.31.0 (Feb 7 2022)
 
 * Prettify Chef version constraints.
