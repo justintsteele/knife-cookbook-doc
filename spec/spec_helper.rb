@@ -1,2 +1,6 @@
 require 'rspec'
+require 'chef'
 require_relative '../lib/knife_cookbook_doc/attributes_model'
+require_relative '../lib/knife_cookbook_doc/base_model'
+require_relative '../lib/knife_cookbook_doc/resource_model'
+require_relative '../lib/knife_cookbook_doc/documenting_lwrp_base'

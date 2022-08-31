@@ -11,3 +11,7 @@ attribute :my_attribute, default: 'a default value'
 
 # <> @property my_property This is a property.
 property :my_property, default: 'another default value'
+
+action_class do
+  include FixtureCookbook::Library
+end
