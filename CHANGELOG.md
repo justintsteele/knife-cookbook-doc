@@ -1,6 +1,6 @@
 # Unreleased
 
-# v 0.31.1 (March 14 2022)
+# v0.31.1 (Sep 5 2022)
 
 * Remove `action_class` from data sent to `resource_class.class_eval`.  Submitted by Justin Steele.
 
